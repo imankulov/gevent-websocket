@@ -1,0 +1,1 @@
+extend-diff-ignore=gevent_websocket\.egg-info

@@ -1,17 +1,17 @@
-Source: python-gevent-websocket
+Source: gevent-websocket
 Section: python
-Priority: extra
-Maintainer: Jeffrey Gelens <jeffrey@noppo.pro>
-Build-Depends: python-all, python-setuptools, python-gevent, python-greenlet, debhelper (>= 7)
+Priority: optional
+Maintainer: Roman Imankulov <roman.imankulov@gmail.com>
+Build-Depends: python-setuptools,
+               python | python-all | python-dev | python-all-dev (>=2.6.3),
+               debhelper (>= 7)
 Standards-Version: 3.9.3
-Homepage: http://www.gelens.org/code/gevent-websocket/
+Homepage: https://bitbucket.org/Jeffrey/gevent-websocket
 
 Package: python-gevent-websocket
 Architecture: all
-Section: python
-Priority: extra
-Depends: ${python:Depends}
-Homepage: http://www.gelens.org/code/gevent-websocket/
-Description: Websocket handler for the gevent pywsgi server, a Python network library
- gevent-websocket is a websocket library for the gevent networking library,
- written and maintained by Jeffrey Gelens.
+Depends: ${misc:Depends},
+         ${python:Depends},
+         python-gevent (>=0.13),
+         python-greenlet (>=0.3),
+Description: websocket library for the gevent networking library

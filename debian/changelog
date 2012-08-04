@@ -1,5 +1,5 @@
-python-gevent-websocket (0.3.6) precise; urgency=low
+gevent-websocket (0.3.6+git201208041121-0ppa1) precise; urgency=low
 
-  * New version
+  * Initial package snapshot
 
- -- Jeffrey Gelens <jeffrey@noppo.pro>  Fri, 11 May 2012 09:25:34 +0000
+ -- Roman Imankulov <roman.imankulov@gmail.com>  Sat, 04 Aug 2012 11:21:46 +0000
